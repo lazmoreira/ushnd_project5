@@ -6,9 +6,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "put"
-      ]
+      "methods": ["put"],
+      "connection": "MyDbConnection"
     },
     {
       "type": "http",

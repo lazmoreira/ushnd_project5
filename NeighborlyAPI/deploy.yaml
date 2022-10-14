@@ -1,0 +1,202 @@
+data:
+  FUNCTIONS_WORKER_RUNTIME: cHl0aG9u
+  APPINSIGHTS_INSTRUMENTATIONKEY: ZmMxZGE1YzAtNWZiNC00MzliLTg5ZjctOWI0MjBiMjJiMWM3
+  APPLICATIONINSIGHTS_CONNECTION_STRING: SW5zdHJ1bWVudGF0aW9uS2V5PWZjMWRhNWMwLTVmYjQtNDM5Yi04OWY3LTliNDIwYjIyYjFjNztJbmdlc3Rpb25FbmRwb2ludD1odHRwczovL3dlc3RldXJvcGUtNS5pbi5hcHBsaWNhdGlvbmluc2lnaHRzLmF6dXJlLmNvbS87TGl2ZUVuZHBvaW50PWh0dHBzOi8vd2VzdGV1cm9wZS5saXZlZGlhZ25vc3RpY3MubW9uaXRvci5henVyZS5jb20v
+  AzureWebJobsStorage: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXVzaG5kcHJvamVjdDVzdG9yYWdlO0FjY291bnRLZXk9M0dLbWd3cXdaSjNaeGd4MG4yR1pNVmxiU3F4ME05SnFKMnU3NVRXd2tQR2FrZ3AxVEdHSVZtNXlRa2JuUDBIZzg3L1BkdmVwc0xXTytBU3RudHRpOVE9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
+  FUNCTIONS_EXTENSION_VERSION: fjQ=
+  MyDbConnection: bW9uZ29kYjovL3VzaG5kLXByb2plY3Q1LWNvc21vc2RiOnpQVkJqa2JBeEtMb2w1ekpjbUhnZ0V1WlVSVENmdXkxNUN1WWpWYVpwcjVEZkFBNjV0TXR3NGxUZUk3Tko5cG15UHIyWTN5dlBWR3NuVjNjMUk4RXB3PT1AdXNobmQtcHJvamVjdDUtY29zbW9zZGIubW9uZ28uY29zbW9zLmF6dXJlLmNvbToxMDI1NS8/c3NsPXRydWUmcmVwbGljYVNldD1nbG9iYWxkYiZyZXRyeXdyaXRlcz1mYWxzZSZtYXhJZGxlVGltZU1TPTEyMDAwMCZhcHBOYW1lPUB1c2huZC1wcm9qZWN0NS1jb3Ntb3NkYkA=
+  WEBSITE_CONTENTAZUREFILECONNECTIONSTRING: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXVzaG5kcHJvamVjdDVzdG9yYWdlO0FjY291bnRLZXk9M0dLbWd3cXdaSjNaeGd4MG4yR1pNVmxiU3F4ME05SnFKMnU3NVRXd2tQR2FrZ3AxVEdHSVZtNXlRa2JuUDBIZzg3L1BkdmVwc0xXTytBU3RudHRpOVE9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
+  WEBSITE_CONTENTSHARE: dXNobmQtcHJvamVjdDUtZnVuY3Rpb25hcHA4ZTUy
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ushnd-project5-functionapp
+---
+data:
+  host.master: RGhkUTFBVExWZ3M5RDFDT25IX0MtZUZDV3FaTnU1NkZET2ZUMHlPYncyVmVBekZ1SlhDbVZRPT0=
+  host.function.default: NGlFbXBESkZPZGkyZzQyRFhLclNPOER2Tmo3M2tyN3FPWmtYTVp0MG5peFBBekZ1c2pmb2lRPT0=
+  host.systemKey.default: cVlKZk9YYjc0dFdZbTk0NzFvandfV05qa1dUSHJhTzFJcS1icWRVTXJycFBBekZ1TUNoWThBPT0=
+  functions.createadvertisement.default: YWstRGpseDJBdF8yMjZkMGJEVmtuVVpsNzdMWllSMVBwdXRCTXc2UWlTQlRBekZ1QUY5WERBPT0=
+  functions.deleteadvertisement.default: eE5xWkhROWJsN1d1YnVGSnpHUjNrZnNqV285TjFHb2pkSjh1ZjZuWUZMRFNBekZ1SXlDa3hnPT0=
+  functions.getadvertisement.default: Zm9wa0ZlQ1RhdXp1dDhCRFluWTRzTE9nbHZ6UGRsTlJMSUZDbHFEYndFUk5BekZ1ZTdkbFVBPT0=
+  functions.getadvertisements.default: RG5hMGJrR0I2b241bHo2ZktiYTlFNGhXbC1JZll1TDdRZWRkYmRGazVHem5BekZ1aVBDbnZ3PT0=
+  functions.getpost.default: UENNck5TQUxydkwyRVMxNzB1WEh2TjVLUVo4MnJ1MDF5amtiRFMwVUVtRHBBekZ1VUtNbjRRPT0=
+  functions.getposts.default: dE1EXzdVV3B5d1dQTlZEaE9MYTNCcEYwLVJXTFRxekZLN0xQTWxBWjByb2FBekZ1UGFwSUtRPT0=
+  functions.updateadvertisement.default: cG1yUkhfcGxYejlsMTZzeGJEVTlNVk9panJQT0VkcDE3YXZXZUVmX09yclVBekZ1TjNCNHVBPT0=
+apiVersion: v1
+kind: Secret
+metadata:
+  name: func-keys-kube-secret-ushnd-project5-functionapp
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: ushnd-project5-functionapp-function-keys-identity-svc-act
+---
+rules:
+- apiGroups:
+  - ''
+  resources:
+  - secrets
+  - configMaps
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: functions-keys-manager-role
+---
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: functions-keys-manager-role
+subjects:
+- kind: ServiceAccount
+  name: ushnd-project5-functionapp-function-keys-identity-svc-act
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: ushnd-project5-functionapp-function-keys-identity-svc-act-functions-keys-manager-rolebinding
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ushnd-project5-functionapp-http
+spec:
+  selector:
+    app: ushnd-project5-functionapp-http
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ushnd-project5-functionapp-http
+  labels:
+    app: ushnd-project5-functionapp-http
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ushnd-project5-functionapp-http
+  template:
+    metadata:
+      labels:
+        app: ushnd-project5-functionapp-http
+    spec:
+      containers:
+      - name: ushnd-project5-functionapp-http
+        image: ushndproject5acr.azurecr.io/ushnd-project5-functionapp:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: AzureFunctionsJobHost__functions__0
+          value: createAdvertisement
+        - name: AzureFunctionsJobHost__functions__1
+          value: deleteAdvertisement
+        - name: AzureFunctionsJobHost__functions__2
+          value: getAdvertisement
+        - name: AzureFunctionsJobHost__functions__3
+          value: getAdvertisements
+        - name: AzureFunctionsJobHost__functions__4
+          value: getPost
+        - name: AzureFunctionsJobHost__functions__5
+          value: getPosts
+        - name: AzureFunctionsJobHost__functions__6
+          value: updateAdvertisement
+        - name: AzureWebJobsSecretStorageType
+          value: kubernetes
+        - name: AzureWebJobsKubernetesSecretName
+          value: secrets/func-keys-kube-secret-ushnd-project5-functionapp
+        envFrom:
+        - secretRef:
+            name: ushnd-project5-functionapp
+        readinessProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+        startupProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+      serviceAccountName: ushnd-project5-functionapp-function-keys-identity-svc-act
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ushnd-project5-functionapp
+  labels:
+    app: ushnd-project5-functionapp
+spec:
+  selector:
+    matchLabels:
+      app: ushnd-project5-functionapp
+  template:
+    metadata:
+      labels:
+        app: ushnd-project5-functionapp
+    spec:
+      containers:
+      - name: ushnd-project5-functionapp
+        image: ushndproject5acr.azurecr.io/ushnd-project5-functionapp:latest
+        env:
+        - name: AzureFunctionsJobHost__functions__0
+          value: eventHubTrigger
+        envFrom:
+        - secretRef:
+            name: ushnd-project5-functionapp
+        readinessProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+        startupProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+      serviceAccountName: ushnd-project5-functionapp-function-keys-identity-svc-act
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: ushnd-project5-functionapp
+  labels: {}
+spec:
+  scaleTargetRef:
+    name: ushnd-project5-functionapp
+  triggers:
+  - type: eventgridtrigger
+    metadata:
+      direction: in
+      eventHubName: testhub
+      connection: Endpoint=sb://udacityneighborly.servicebus.windows.net/;SharedAccessKeyName=allpolicy;SharedAccessKey=LOxUOkN13xN038T1VoSsmaTt4s7vq/+VCzduS5/nH9A=;EntityPath=testhub
+---
+
